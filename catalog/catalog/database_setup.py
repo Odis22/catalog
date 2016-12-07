@@ -57,7 +57,7 @@ class CatalogItem(Base):
         }
 
 
-engine = create_engine('sqlite:///restaurantmenuwithusers.db')
+engine = create_engine('sqlite:///storecatalog.db')
 
 
 Base.metadata.create_all(engine)
