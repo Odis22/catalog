@@ -41,7 +41,7 @@ class CatalogItem(Base):
     price = Column(String(8))
     course = Column(String(250))
     store_id = Column(Integer, ForeignKey('store.id'))
-    store = relationship(store)
+    store = relationship(Store)
     user_id = Column(Integer, ForeignKey('user.id'))
     user = relationship(User)
 
