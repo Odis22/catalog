@@ -1,34 +1,15 @@
-# catalog
-udacity nanodegree
+# 271653_ijhs7
 
- catalog
-Project 3 for udacity nanodegree
+SYNOPSIS
 
-Summary: This project uses flask and sqlalchemy to run a web application.
+I developed an application that provides a list of items within a variety of categories as well as provide a user registration and authentication system. Registered users will have the ability to post, edit and delete their own items.
 
-Files in the repo
--All of the files are in the catalog folder, except for the readme file.
--Within the catalog folder there are 2 folder, static (holds the style sheet for all web pages web app) and template folder (which contains the html templates used for the various html pages)
--The main file that holds all of the code and that will be used to run the application, is catalog.py (contains all of the methods)
+Motivation
 
+earn how to develop a RESTful web application using the Python framework Flask along with implementing third-party OAuth authentication and use the CRUD method INSTALLATION
 
+Install Vagrant and VirtualBox Clone the fullstack-nanodegree-vm Launch the Vagrant VM (vagrant up) Write your Flask application locally in the vagrant/catalog directory (which will automatically be synced to /vagrant/catalog within the VM). Run your application within the VM (python /vagrant/catalog/application.py) Access and test your application by visiting http://localhost:8000 locally
 
-What is needed to run this app:
-- download sqlalchemy and install it on the system that will run this application
-- download the oauth files and install it on the system.
-Run these commands in the cmd prompt to ensure your system is like mine
-	pip install werkzeug==0.8.3
-	pip install flask==0.9
-	pip install Flask-Login==0.1.3
+CONTRIBUTORS
 
--Before running the app the database will need to be created.
-Open up the project folder from the command line. Follow these instructions:
-1) Clone the repo, git clone https://github.com/arianalopez30/catalog.git
-2) In the cmd prompt cd into the catalog directory where all the files are
-1) Type python database.py (this will create the database and create a database.pyc file)
-2) To populate the database run, python catalog_database_data.py
-3) To run the app type: python catalog.py
-4) Open Chrome and type localhost:8000/ (the app runs on port 8000)
-5) Now you can peruse based on the links provided.
-6) To see the json stuff type localhost:8000/catalog/json/
-7) Congrats....I'm done!
+Thanks to the Udacity Fullstacks
